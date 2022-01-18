@@ -43,7 +43,7 @@ const ListScreen = () => {
 
   return (
     <FlatList
-      keyExtractor={(element) => element.id}
+      keyExtractor={(element) => element.title}
       data={list}
       renderItem={({ item }) => (
         <Text style={styles.textStyle}>
